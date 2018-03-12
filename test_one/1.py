@@ -6,9 +6,10 @@ import queue,time,threading
 start = time.clock()
 
 def worker(m):
-	print('worker',m)
 	time.sleep(1)
-	return
+	print('worker',m)
+
+
 
 if __name__ == '__main__':
 	threads = []
